@@ -55,11 +55,7 @@ body{
 
 /* Navigation Bar */
 
-.navbar-brand{
-  font-family: "Ubuntu Condensed";
 
-
-}
 .navbar{
   padding: 3% 7%;
 
@@ -111,4 +107,18 @@ p{
 h3{
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+/* Footer */
+
+.icon-footer{
+padding: 3%;
+font-size: 2rem;
+color: black;
+}
+.icon-footer:hover{
+	color: #fce303;
+}
+.copyright{
+	padding: 3%;
 }
