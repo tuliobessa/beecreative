@@ -48,6 +48,8 @@ table {
 }
 
 
+
+
 body{
   font-family: "Montserrat";
   text-align: center;
@@ -73,7 +75,7 @@ h1{
 h2{
   padding: 3%;
   font-size: 2.5rem;
-color: #807F6E;
+color: #858021;
 	 }
 
 .sub-title{
@@ -106,6 +108,7 @@ color: #807F6E;
 p{
   font-family: "ubuntu Condensed";
   padding: 3% 0;
+	font-size: 1.2rem;
 }
 h3{
   font-weight: bold;
@@ -114,21 +117,37 @@ h3{
 
 /* Web-Tech */
 #web-tech{
-	padding-bottom: 7%;
+	padding-bottom: 5%;
 }
 .http-icon{
-	width: 45%;
+	width: 44%;
 }
 .www-icon{
-	width:30%;
+	width:27%;
 	padding-bottom: 10px;
 }
 .hosting-icon{
 		width:30%;
 }
 .web-heading{
-	padding-bottom: 7%;
+	padding-bottom: 5%;
 	line-height: 1.5;
+}
+.web-box{
+	padding-bottom: 5%;
+}
+
+/* Design */
+
+#design{
+	background-color: #FFFDDB;
+	padding-bottom: 3%;
+}
+.des-box{
+	padding-bottom: 5%;
+}
+.des-icon{
+	padding-bottom: 3%;
 }
 
 /* Footer */
@@ -144,8 +163,30 @@ color: black;
 .copyright{
 	padding: 3%;
 }
+
+/* KEY TECH PAGE */
+.lang{
+	font-size: 1.5rem;
+	padding:2%;
+}
+.lang-p{
+	padding: 0 3%;
+	
+
+}
+.markup, .ptag{
+	width: 20%;
+}
+
+
 @media only screen and (max-width: 996px){
-	.http-icon,.www-icon,.hosting.com{
-		width:20%;
+	.web{
+		padding-bottom: 3%;
+	}
+	.des{
+padding-bottom: 3%;
+	}
+	.markup, .ptag{
+		width:40%;
 	}
 }

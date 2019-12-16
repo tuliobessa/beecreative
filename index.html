@@ -8,8 +8,11 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu+Condensed&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/eda547a890.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="icon" href="favicon.ico">
-<meta name="keywords" content="Web Technologies, Html, CSS, Javascript, Coding languages, web design">
+<meta name="keywords" content="Web Technologies, Html, CSS, Javascript, Coding languages, web design, web technologies, design principles">
 <meta name="description" content="Bee Creative makes Web Design Simple and Easy to understand.">
   <title>Bee Creative | Making Web Design Easy</title>
 </head>
@@ -30,16 +33,17 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="keytech.html">Key Technologies</a>
+              <a class="nav-link" href="keytech.html">Core Technologies</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="webtech.html">Application of Web Technologies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Design Principles</a>
+              <a class="nav-link" href="design.html">Design Principles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Use of Web Technologies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -54,14 +58,12 @@
     </div>
   </header>
 
-  <article id="tech">
+  <section id="tech">
     <div class="container-fluid">
 
 
-      <h2>Understand the Key Languages Used in Web Design</h2>
+      <h2>Understand the Key Languages and Technologies Used in Web Design</h2>
       <div class="row">
-
-
 
         <div class="tech-box col-lg-4">
           <i class="icon fab fa-html5 fa-7x"></i>
@@ -82,14 +84,14 @@
         </div>
       </div>
 
-      <button onclick= "window.location.href='keytech.html';" type="button" class="btn btn-outline-warning">Discover more</button>
+      <button onclick= "window.location.href='keytech.html';" type="button" class="btn btn-warning">Discover more</button>
     </div>
-  </article>
+  </section>
 
-  <article id="web-tech">
+  <section id="web-tech">
     <h2 class="web-heading">What goes behind the curtains to make your website work</h2>
     <div class="container-fluid">
-      <div class="row">
+      <div class="web-box row">
         <div class="web col-lg-4">
           <img class="http-icon"src="images/http-icon.jpg" alt="http-logo">
           <h3>HTTP</h3>
@@ -105,11 +107,32 @@
           <h3>Web Hosting</h3>
         </div>
       </div>
+      <button onclick= "window.location.href='webtech.html';" type="button" class="btn btn-dark">Discover more</button>
     </div>
-  </article>
-<article class="design">
+  </section>
 
-</article>
+<section id="design">
+<h2>See what are the Design Principles Used in Web Design</h2>
+<div class="container-fluid">
+  <div class="des-box row">
+    <div class="des col-lg-4">
+      <img class="des-icon"src="images/access.png" alt="accessibility-logo">
+      <h3>Web Accessibility</h3>
+    </div>
+
+    <div class="des col-lg-4">
+      <img class="des-icon"src="images/resp.png" alt="responsive-logo">
+      <h3>Responsive Web</h3>
+    </div>
+
+    <div class="des col-lg-4">
+      <img class="des-icon"src="images/colour.png" alt="colour-logo">
+      <h3>Font, Colour and Images</h3>
+    </div>
+  </div>
+  <button onclick= "window.location.href='design.html';" type="button" class="btn btn-warning">Discover more</button>
+</div>
+</section>
   <footer id="contact">
     <div class="container-fluid">
 
