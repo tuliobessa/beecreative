@@ -8,16 +8,17 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu+Condensed&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/eda547a890.js" crossorigin="anonymous"></script>
-  <link rel="icon" href="favicon.ico">
-  <meta name="keywords" content="Web Technologies, Html, CSS, Javascript, Coding languages, web design, web technologies, design principles">
-  <meta name="description" content="Bee Creative makes Web Design Simple and Easy to understand.">
-  <title>Bee Creative | Key Technologies</title>
-</head>
-
-<body>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="icon" href="favicon.ico">
+  <meta name="keywords" content="Web Technologies, Html, CSS, Javascript, Coding languages, web design, web technologies, design principles">
+  <meta name="description" content="Bee Creative makes Web Design Simple and Easy to understand.">
+  <title>Bee Creative | Core Technologies</title>
+</head>
+
+<body>
+
   <header class="heading">
     <div class="container-fluid">
 
@@ -42,36 +43,93 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
           </ul>
         </div>
       </nav>
   </header>
 
-  <h2>Core Technologies</h2>
-  <h3>In order for us to create a website some Core Technologies are used a and we can devide them in:</h3>
+  <h2 class="core">Core Technologies</h2>
+  <h3 class="tech-sub">In order for us to create a website some Core Technologies are used a and we can devide them in:</h3>
   <article id="languages">
     <div class="">
       <h2 class="lang">1.Languages:</h2>
       <p class="lang-p">In order for you to access a webpage you will need a browser(chrome, safari, IE,etc) which a are a piece of software that looks up the IP number of the requested website and is able to receive data that it can render into the
         websites that we see.</p>
-        <p class="lang-p"> The data we received from the server usually consist of 3 different files:</p>
+      <p class="lang-p"> The data we received from the server usually consist of 3 different files:</p>
 
     </div>
     <div class="html container-fluid">
       <h2 class="lang">1.1.HTML:</h2>
-      <p class="lang-p">It stands for HyperText Markup Language. This technology is responsible for the structure of your website that is mainly used to add elements like text, images, buttons, links or anything involving the main structure of the
-        web page.
-        It is based on the Markup used to be put into manuscripts where editors would markup the manuscript to specify changes to the author or specify structure or layout to the publishers.
+      <div class="row">
+
+        <p class="lang-html col-lg-6">It stands for HyperText Markup Language. This technology is responsible for the structure of your website that is mainly used to add elements like text, images, buttons, links or anything involving the main
+          structure of the
+          web page.
+          It is based on the Markup used to be put into manuscripts where editors would markup the manuscript to specify changes to the author or specify structure or layout to the publishers.
+        </p>
+
+        <img class="markup col-lg-6 col-sm-12 " src="images/markup.jpg" alt="markup-manuscripts">
+      </div>
+      <div class="row">
+        <img class="ptag col-lg-6" src="images/ptag.png" alt="ptag-example">
+        <div class="lang-p2 col-lg-6">
+
+          <p>HTML works in the same way where you specify layout and structure of you website by using HTML tags.
+            Here is an example of a HTML Tag
+          </p>
+          <p>The character in between the 2 brackets indicates the tag’s purpose, also known as element ( in this case a paragraph).
+            Most tags have an opening and closing tag (which has a forward slash before the element) and in between them is the content.
+          </p>
+        </div>
+      </div>
+
+      <h2 class="lang">1.2.CSS:</h2>
+      <div class="row">
+        <p class=" col-lg-6">CSS(Cascading Style Sheets)are files responsible for styling your website including the design, layout and variations in display for different devices and screen sizes. It changes aspects of your website such as colour,
+          fonts, position, sizes, etc.
+          Here is an example of the structure of a CSS styling
+        </p>
+        <img class="markup col-lg-6 col-sm-12 " src="images/css.png" alt="css-example">
+      </div>
+      <p>The selector targets which html element we are changing.
+        The property is the way you can style a given HTML element
+        And the property values chooses one of the many appearances for a given property.
       </p>
-      <img class="markup"src="images/markup.jpg" alt="markup-manuscripts">
-      <p class="lang-p">HTML works in the same way where you specify layout and structure of you website by using HTML tags.
-Below is an example of a HTML Tag
-</p>
-<img class ="ptag"src="images/ptag.png" alt="ptag-example">
-<p class="lang-p">The character in between the 2 brackets indicates the tag’s purpose, also known as element ( in this case a paragraph).
-Most tags have an opening and closing tag (which has a forward slash before the element) and in between them is the content.
-</p>
+      <h2 class="lang">1.2.JAVASCRIPT:</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <p>Responsible for all the behaviour on your website. It is a scripting language used to create and control dynamic website content. It allows the elements of your website to have action such as send an e-mail when you click a button, your
+            navigation bar to have a dropdown menu, the autocomplete text suggestions, animated graphics, slideshows and so on.
+          </p>
+          <p>Javascript is a language use to automate processes that users would otherwise need to execute on their own. Used to add interactivity to website, develop mobile applications, create web browser based games and even back end development.
+            JavaScript code can been added to HTML page or in a separate file with a .js extension.
+            Here is a simple example of how JavaScript can change the HTML attributes</p>
+        </div>
+        <img class="markup col-lg-6 col-sm-12 " src="images/java.gif" alt="java-animation">
+      </div>
+
+
+        <h2 class="lang">1.Frameworks and Libraries:</h2>
+        <div class="row">
+          <img class="col-lg-6" src="images/frame-libr.png" alt="framework-library-diagram">
+          <div class="col-lg-6"">
+
+
+        <p >Even though developers might use the terms framework and library interchangeably there is a difference.
+Both of them are code written by someone that is basically reusable code to make your life easier.
+The technical difference would be on something called inversion of control.</p>
+<p>On libraries you are in charge of the flow of the application. You choose when and where to call the library.
+And when you use a framework, the framework is in charge of the flow. It provides some places for you to plug in your code, but it calls the code you plugged in as needed.
+Libraries is a collection of reusable code that can be used in our code when we need it. </p>
+<p>This simple diagram show how frameworks and libraries ara organised</p>
+</div>
+          </div>
     </div>
+
+
   </article>
 
   <footer id="contact">
