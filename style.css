@@ -191,7 +191,7 @@ color: black;
 .markup{
 	width: 10%;
 }
-#languages, #webtech{
+#languages, #webtech, #design2{
 	padding: 3% 15%;
 }
 /* WEB TECHNOLGIES PAGE */
@@ -201,6 +201,69 @@ color: black;
 }
 .list-items{
 	padding-bottom: 3%;
+}
+/* CONTACT */
+#contact-form{
+	background-color: #FFFDDB;
+	text-align: center;
+padding: 7% 0;
+}
+#contact-form h2{
+	letter-spacing: 5px;
+}
+.wrapper{
+	position: relative;
+margin:auto;
+
+
+	max-width:400px;
+	width: 100%;
+	background: #fff;
+	padding: 25px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 2px rgba(254,236,164,1);
+
+}
+
+.wrapper h2{
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+}
+.wrapper .input_field{
+	margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+	width: 100%;
+	border:1px solid #e0e0e0;
+	padding: 10px;
+}
+.wrapper textarea{
+	height: 80px;
+	resize: none;
+}
+.wrapper .btn2 input[type="submit"]{
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	background: #fece0c;
+	color: #333902;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.wrapper #error_message{
+	margin-bottom: 20px;
+	padding: 0px;
+	background: #fe8b8e;
+	text-align: center;
+	font-size: 14px;
+	transition: all 0.5s ease;
 }
 
 @media only screen and (max-width: 996px){
@@ -221,5 +284,9 @@ padding-bottom: 3%;
 }
 .lang-p2{
 	padding-top: 3%
+}
+.web-host, .client, .www{
+	width: 80%;
+	text-align: center;
 }
 }
